@@ -21,10 +21,10 @@ This series represents hands-on replication of seminal research papers across th
 
 | # | Model | Research Paper | Description | Repository |
 |---|--------|----------------|--------------|-------------|
-| 1️⃣ | **RNN + LSTM + Bahdanau Attention** | *Neural Machine Translation by Jointly Learning to Align and Translate*<br>Bahdanau, Cho & Bengio (ICLR 2015)<br>[arXiv:1409.0473](https://arxiv.org/abs/1409.0473) | Encoder-decoder architecture with additive attention mechanism, implementing hidden state alignment and dynamic context weighting from scratch. | [🔗 Repository](https://github.com/arnavmishra4/From-RNNs-to-Bahdanau-Attention-A-Research-Level-Implementation-in-PyTorch) |
-| 2️⃣ | **Transformer (Attention Is All You Need)** | *Attention Is All You Need*<br>Vaswani et al. (NeurIPS 2017)<br>[arXiv:1706.03762](https://arxiv.org/abs/1706.03762) | Multi-head scaled dot-product attention, sinusoidal positional encoding, encoder-decoder stacks with masking and layer normalization. | [🔗 Repository](https://github.com/arnavmishra4/Transformer-Attention-Is-All-You-Need-From-Scratch-in-PyTorch) |
-| 3️⃣ | **GNN (Graph Neural Networks)** | *Semi-Supervised Classification with Graph Convolutional Networks*<br>Kipf & Welling (ICLR 2017)<br>*Graph Attention Networks*<br>Veličković et al. (ICLR 2018)<br>*Inductive Representation Learning on Large Graphs*<br>Hamilton et al. (NeurIPS 2017) | GCN with manual adjacency normalization, GAT with multi-head attention mechanisms, and GraphSAGE with inductive neighborhood sampling. | [🔗 Repository](https://github.com/arnavmishra4/From-GCNs-to-GraphSAGE-Graph-Neural-Networks-from-Scratch-in-PyTorch) |
-| 4️⃣ | **ResNet (Residual Network)** | *Deep Residual Learning for Image Recognition*<br>He, Zhang, Ren & Sun (CVPR 2016)<br>[arXiv:1512.03385](https://arxiv.org/abs/1512.03385) | Residual blocks with projection shortcuts and dataset-agnostic training pipeline. | [🔗 Repository](https://github.com/arnavmishra4/ResNet-from-Scratch-Deep-Residual-Learning-in-PyTorch) |
+| 1️⃣ | **Transformer (Attention Is All You Need)** | *Attention Is All You Need*<br>Vaswani et al. (NeurIPS 2017)<br>[arXiv:1706.03762](https://arxiv.org/abs/1706.03762) | Multi-head scaled dot-product attention, sinusoidal positional encoding, encoder-decoder stacks with masking and layer normalization. | [🔗 Repository](https://github.com/arnavmishra4/Transformer-Attention-Is-All-You-Need-From-Scratch-in-PyTorch) |
+| 2️⃣ | **GNN (Graph Neural Networks)** | *Semi-Supervised Classification with Graph Convolutional Networks*<br>Kipf & Welling (ICLR 2017)<br>*Graph Attention Networks*<br>Veličković et al. (ICLR 2018)<br>*Inductive Representation Learning on Large Graphs*<br>Hamilton et al. (NeurIPS 2017) | GCN with manual adjacency normalization, GAT with multi-head attention mechanisms, and GraphSAGE with inductive neighborhood sampling. | [🔗 Repository](https://github.com/arnavmishra4/From-GCNs-to-GraphSAGE-Graph-Neural-Networks-from-Scratch-in-PyTorch) |
+| 3️⃣ | **ResNet (Residual Network)** | *Deep Residual Learning for Image Recognition*<br>He, Zhang, Ren & Sun (CVPR 2016)<br>[arXiv:1512.03385](https://arxiv.org/abs/1512.03385) | Residual blocks with projection shortcuts and dataset-agnostic training pipeline. | [🔗 Repository](https://github.com/arnavmishra4/ResNet-from-Scratch-Deep-Residual-Learning-in-PyTorch) |
+| 4️⃣ | **RNN + LSTM + Bahdanau Attention** | *Neural Machine Translation by Jointly Learning to Align and Translate*<br>Bahdanau, Cho & Bengio (ICLR 2015)<br>[arXiv:1409.0473](https://arxiv.org/abs/1409.0473) | Encoder-decoder architecture with additive attention mechanism, implementing hidden state alignment and dynamic context weighting from scratch. | [🔗 Repository](https://github.com/arnavmishra4/From-RNNs-to-Bahdanau-Attention-A-Research-Level-Implementation-in-PyTorch) |
 
 ---
 
@@ -43,10 +43,10 @@ Each implementation follows a **modular, research-grade structure**:
 
 | Domain | Architecture | Focus |
 |---------|--------------|--------|
-| Sequence Modeling | RNN, LSTM, Bahdanau Attention | Temporal dependencies, additive attention alignment |
 | Transformer Architectures | Multi-Head Self-Attention | Parallelized attention, positional encoding |
 | Graph Learning | GCN, GAT, GraphSAGE | Spectral/attention-based message passing, inductive learning |
 | Computer Vision | ResNet | Residual learning, gradient flow preservation |
+| Sequence Modeling | RNN, LSTM, Bahdanau Attention | Temporal dependencies, additive attention alignment |
 
 ---
 
